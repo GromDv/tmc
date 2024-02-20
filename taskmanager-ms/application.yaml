@@ -24,6 +24,5 @@ management:
   endpoint:
     health:
       show-details: always
-      
 spring:
-	output.ansi.enabled: ALWAYS
+  output.ansi.enabled: ALWAYS
