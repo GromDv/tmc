@@ -1,5 +1,8 @@
 server:
   port: 8087
+  
+spring:
+  output.ansi.enabled: ALWAYS
   datasource:
     url: "jdbc:postgresql://localhost:5435/tasksBase"
     username: postgres
@@ -25,5 +28,4 @@ management:
   endpoint:
     health:
       show-details: always
-spring:
-  output.ansi.enabled: ALWAYS
+  
