@@ -7,7 +7,7 @@ server:
     driver-class-name: org.postgresql.Driver
   sql:
     init:
-      mode: always
+      mode: never
   jpa:
     database: POSTGRESQL
     hibernate:
