@@ -1,7 +1,7 @@
 server:
   port: 8087
   datasource:
-    jdbc-url: jdbc:postgresql://localhost:5435/tasksBase
+    url: "jdbc:postgresql://localhost:5435/tasksBase"
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
