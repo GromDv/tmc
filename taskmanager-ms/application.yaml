@@ -7,13 +7,14 @@ server:
     driver-class-name: org.postgresql.Driver
   sql:
     init:
-      mode: never
+      mode: always
   jpa:
     database: POSTGRESQL
     hibernate:
       dialect: org.hibernate.dialect.PostgresSQLDialect
       default-schema: tasks_schema
-      ddl-auto: update
+      ddl-auto: none
+    defer-datasource-initialization: true
   show-sql: true
 
 management:
