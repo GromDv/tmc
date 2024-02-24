@@ -1,0 +1,8 @@
+server:
+  port: 8086
+spring:
+  output.ansi.enabled: ALWAYS
+api:
+  urlApiTasks: "http://localhost:8087/tasks"
+  urlApiMessages: "http://localhost:8087/messages"
+  
