@@ -15,6 +15,6 @@ spring:
           predicates:
             - Path=/messages/**
         - id: web-service
-				  uri: http://localhost:8086/
-				  predicates:
-				    - Path=/tm/**
+          uri: http://localhost:8086/
+          predicates:
+        - Path=/tm/**
