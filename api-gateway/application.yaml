@@ -17,4 +17,4 @@ spring:
         - id: web-service
           uri: http://localhost:8086/
           predicates:
-        - Path=/tm/**
+            - Path=/tm/**
