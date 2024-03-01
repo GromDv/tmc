@@ -3,6 +3,9 @@ server:
 spring:
   output.ansi.enabled: ALWAYS
 api:
-  urlApiTasks: "http://localhost:8765/tasks"
-  urlApiMessages: "http://localhost:8765/messages"
+  host: "http://localhost"
+  server-port: 8080
+  gateway-port: 8765
+  urlApiTasks: "/tasks"
+  urlApiMessages: "/messages"
   
