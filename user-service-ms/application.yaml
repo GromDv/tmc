@@ -16,7 +16,7 @@ spring:
     hibernate:
       dialect: org.hibernate.dialect.PostgresSQLDialect
       default-schema: tasks_schema
-      ddl-auto: always
+      ddl-auto: none
     defer-datasource-initialization: true
   show-sql: true
 

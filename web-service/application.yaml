@@ -8,4 +8,5 @@ api:
   gatewayPort: 8765
   urlApiTasks: "/tasks"
   urlApiMessages: "/messages"
+  urlApiUsers: "/users"
   
