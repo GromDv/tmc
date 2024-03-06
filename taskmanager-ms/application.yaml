@@ -8,9 +8,9 @@ spring:
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
-  # sql:
-  #   init:
-  #     mode: always
+  sql:
+    init:
+      mode: always
   jpa:
     database: POSTGRESQL
     hibernate:
