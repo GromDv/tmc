@@ -27,6 +27,7 @@ api:
   urlApiMessages: "/messages"
   urlApiUsers: "/users"
   urlApiAdds: "/adds"
+  pathFileStorage: "FILES/"
 
 
 
