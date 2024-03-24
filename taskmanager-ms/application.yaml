@@ -4,7 +4,7 @@ server:
 spring:
   output.ansi.enabled: ALWAYS
   datasource:
-    url: "jdbc:postgresql://localhost:5435/tasksBase"
+    url: "jdbc:postgresql://172.17.0.1:5435/tasksBase"
     username: postgres
     password: postgres
     driver-class-name: org.postgresql.Driver
